@@ -1,5 +1,67 @@
-
-
-@media screen and(max-width:375px){
-    
+/* break point */
+/* COLORS */
+/* TYPOS */
+body {
+  background-color: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.content {
+  overflow: hidden;
+  border-radius: 9px;
+  width: 920px;
+  margin: 0 auto;
+  display: flex;
+}
+.content .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 48px;
+}
+.content .card p {
+  margin-bottom: 48px;
+}
+.content .card .button {
+  padding: 15px 30px;
+  border: 2px solid #f2f2f2;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  color: #e38826;
+  text-decoration: none;
+  transition: 0.8s;
+}
+.content .card .button:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+  transition: 0.4s;
+}
+.content > :nth-child(1) {
+  background-color: #e38826;
+}
+.content > :nth-child(2) {
+  background-color: #006970;
+}
+.content > :nth-child(3) {
+  background-color: #004241;
+}
+
+@media (max-width: 375px) {
+  .content {
+    flex-direction: column;
+    margin: 90px auto;
+    width: 327px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
