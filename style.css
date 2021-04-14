@@ -44,7 +44,6 @@ h2 {
   border: 2px solid #f2f2f2;
   border-radius: 50px;
   background-color: #f2f2f2;
-  color: #e38826;
   text-decoration: none;
   transition: 0.8s;
 }
@@ -56,15 +55,24 @@ h2 {
 .cardContainer > :nth-child(1) {
   background-color: #e38826;
 }
+.cardContainer > :nth-child(1) .button {
+  color: #e38826;
+}
 .cardContainer > :nth-child(2) {
   background-color: #006970;
+}
+.cardContainer > :nth-child(2) .button {
+  color: #006970;
 }
 .cardContainer > :nth-child(3) {
   background-color: #004241;
 }
+.cardContainer > :nth-child(3) .button {
+  color: #004241;
+}
 
 @media (max-width: 920px) {
-  .content {
+  .cardContainer {
     flex-direction: column;
     margin: 90px auto;
     width: 327px;

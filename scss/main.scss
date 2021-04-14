@@ -45,7 +45,6 @@ h2{
             border: 2px solid $very-light-gray;
             border-radius: 50px;
             background-color: $very-light-gray;
-            color: $orange;
             text-decoration: none ;
             transition: 0.8s;
 
@@ -60,19 +59,29 @@ h2{
     
     & > :nth-child(1){
         background-color: $orange;
+
+        .button{
+            color:$orange
+        }
     }
     & > :nth-child(2){
         background-color: $dark-cyan;
+        .button{
+            color:$dark-cyan;
+        }
     }
     & > :nth-child(3){
         background-color: $very-dark-cyan;
+        .button{
+            color:$very-dark-cyan;
+        }
     }
 }
 
 
 
 @media (max-width:920px){
-    .content{
+    .cardContainer{
         flex-direction: column;
         margin: 90px auto;
         width: 327px;
