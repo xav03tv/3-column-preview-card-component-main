@@ -56,7 +56,7 @@ h2 {
   background-color: #004241;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 920px) {
   .content {
     flex-direction: column;
     margin: 90px auto;
